@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-soft-black text-off-white font-body overflow-x-hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display font-bold;
+}
+
+/* Custom Scrollbar agar lebih elegan */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-soft-black;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-rich-gold rounded-full;
+}
